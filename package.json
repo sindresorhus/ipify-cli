@@ -1,0 +1,45 @@
+{
+  "name": "ipify-cli",
+  "version": "0.0.0",
+  "description": "Get your public IP address",
+  "license": "MIT",
+  "repository": "sindresorhus/ipify-cli",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bin": {
+    "ipify": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "ip",
+    "ipv4",
+    "ipv6",
+    "address",
+    "public",
+    "external",
+    "own"
+  ],
+  "dependencies": {
+    "ipify": "^2.0.0",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.6.0",
+    "is-ip": "^2.0.0",
+    "xo": "*"
+  }
+}
