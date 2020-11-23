@@ -18,7 +18,7 @@ const cli = meow(`
 `, {
 	flags: {
 		endpoint: {
-			type: 'boolean'
+			type: 'string'
 		}
 	}
 });
