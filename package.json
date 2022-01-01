@@ -10,11 +10,12 @@
 		"email": "sindresorhus@gmail.com",
 		"url": "https://sindresorhus.com"
 	},
+	"type": "module",
 	"bin": {
-		"ipify": "cli.js"
+		"ipify": "./cli.js"
 	},
 	"engines": {
-		"node": ">=10"
+		"node": "^14.13.1 || >=16.0.0"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -34,13 +35,13 @@
 		"own"
 	],
 	"dependencies": {
-		"ipify": "^5.0.0",
-		"meow": "^8.0.0"
+		"ipify": "^6.0.0",
+		"meow": "^10.1.2"
 	},
 	"devDependencies": {
-		"ava": "^2.4.0",
-		"execa": "^4.1.0",
+		"ava": "^3.15.0",
+		"execa": "^6.0.0",
 		"is-ip": "^3.1.0",
-		"xo": "^0.35.0"
+		"xo": "^0.47.0"
 	}
 }

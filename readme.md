@@ -6,8 +6,8 @@ Using the [`ipify` API](https://www.ipify.org) or a [custom `ipify` instance](ht
 
 ## Install
 
-```
-$ npm install --global ipify-cli
+```sh
+npm install --global ipify-cli
 ```
 
 ## Usage
